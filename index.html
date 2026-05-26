@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
+  <title>CCDN - Coalition Citoyenne de Défense Numérique</title>
+  <meta name="description" content="Collecte décentralisée et sécurisée de preuves d'infractions contractuelles et de consentement forcé par les géants du numérique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars-bg"></div>
+  
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <span class="logo-shield">🛡️</span>
+        <div class="logo-text">
+          <h1>CCDN</h1>
+          <span>Coalition Citoyenne de Défense Numérique</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#manifeste" class="nav-link">Manifeste</a>
+        <a href="#formulaire" class="nav-link">Plaintes</a>
+        <a href="#decentralisation" class="nav-link">Architecture IPFS</a>
+      </nav>
+      
+      <!-- Google Translate Element -->
+      <div class="translate-box">
+        <div id="google_translate_element"></div>
+      </div>
+
+      <div class="badge-decentralized">
+        <span class="pulse-dot"></span> IPFS Réseau Actif
+      </div>
+    </div>
+  </header>
+
+  <!-- Google Translate Script Initialization -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'fr',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero animate-fade-in">
+      <div class="hero-badge">⚖️ DÉFENSE JURIDIQUE INTERNATIONALE</div>
+      <h2 class="hero-title">Protégez vos droits face aux modifications unilatérales</h2>
+      <p class="hero-subtitle">
+        Les géants de la technologie imposent des clauses unilatérales et forcent l'usage d'outils d'IA entraînés sur vos données. Ensemble, bâtissons un dossier de preuves juridiques anonymes, cryptées et irréfutables pour les actions collectives internationales.
+      </p>
+      <div class="hero-actions">
+        <a href="#formulaire" class="btn btn-primary">Soumettre une Preuve</a>
+        <a href="#manifeste" class="btn btn-secondary">Lire le Manifeste</a>
+      </div>
+    </section>
+
+    <!-- Stat/Overview Cards -->
+    <section class="grid-stats">
+      <div class="stat-card">
+        <div class="stat-icon">📄</div>
+        <h3>Preuve Cryptographique</h3>
+        <p>Génération locale de signatures éphémères pour authentifier chaque signalement.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🔒</div>
+        <h3>Zéro-Connaissance (E2EE)</h3>
+        <p>Vos coordonnées privées sont chiffrées de bout en bout pour l'avocat et invisibles pour nous.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🕸️</div>
+        <h3>Hébergement Incensurable</h3>
+        <p>Cette application est distribuée de pair à pair via IPFS sans point central de défaillance.</p>
+      </div>
+    </section>
+
+    <!-- Manifesto Section -->
+    <section id="manifeste" class="section card glass">
+      <h2 class="section-title">Manifeste Fondateur</h2>
+      <p class="section-intro">
+        L'imposition de modifications contractuelles forcées pour l'entraînement des IA constitue un abus systémique. Notre cadre juridique s'appuie sur des législations fortes à travers le monde.
+      </p>
+
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="quebec-canada">Québec & Canada</button>
+        <button class="tab-btn" data-tab="europe-uk">Europe & UK</button>
+        <button class="tab-btn" data-tab="usa">États-Unis</button>
+        <button class="tab-btn" data-tab="australia-apac">Australie & APAC</button>
+      </div>
+
+      <div class="tab-content active" id="quebec-canada">
+        <h3>Loi sur la protection du consommateur (LPC Québec) & C.c.Q</h3>
+        <p><strong>Article 11.3 (LPC Québec) :</strong> Interdiction stricte de modifier unilatéralement un contrat à moins de se conformer à des avis formels de 30 jours permettant la résiliation sans frais. La coupure de services historiques (comme Google Drive ou Gmail) pour défaut d'acceptation des clauses Gemini viole la loi.</p>
+        <p><strong>Art. 1437 C.c.Q :</strong> Les clauses de renonciation aux recours collectifs et d'arbitrage forcé imposées unilatéralement sont abusives, réputées non écrites et nulles en justice québécoise.</p>
+      </div>
+
+      <div class="tab-content" id="europe-uk">
+        <h3>RGPD & Directive 93/13/CEE (Clauses Abusives)</h3>
+        <p><strong>Art. 7(4) du RGPD (Conditionnalité du consentement) :</strong> Lier l'accès aux services de stockage ou de messagerie à l'obligation de consentir à l'utilisation de vos fichiers personnels pour entraîner l'IA constitue un consentement contraint, donc nul en droit de l'Union européenne.</p>
+        <p><strong>UK Consumer Rights Act 2015 :</strong> Les modifications de service qui modifient la nature intrinsèque des prestations attendues de façon disproportionnée et non négociée sont réputées abusives.</p>
+      </div>
+
+      <div class="tab-content" id="usa">
+        <h3>FTC Act Section 5 & California CCPA/CPRA</h3>
+        <p><strong>Section 5 de la FTC Act (Pratiques Trompeuses) :</strong> La modification rétroactive unilatérale pour s'approprier des données autrefois protégées par une politique de confidentialité stricte est une pratique déloyale interdite par la Commission fédérale du commerce des États-Unis.</p>
+        <p><strong>CCPA/CPRA (Californie) :</strong> Les utilisateurs californiens disposent du droit inaliénable de refuser la vente, le partage ou l'utilisation de leurs données à des fins d'entraînement sans subir de discrimination commerciale.</p>
+      </div>
+
+      <div class="tab-content" id="australia-apac">
+        <h3>Australian Consumer Law (ACL)</h3>
+        <p><strong>Unfair Contract Terms (UCT) :</strong> Les contrats d'adhésion de masse ne peuvent conférer à une seule partie le droit exclusif de modifier le prix, la qualité ou la nature des services numériques sans contrepartie claire, sous peine d'annulation par la Cour fédérale d'Australie.</p>
+      </div>
+    </section>
+
+    <!-- Official Complaint Section -->
+    <section id="formulaire" class="section card glass">
+      <h2 class="section-title">Déposer une Plainte Officielle (econsumer.gov)</h2>
+      <p class="section-intro">
+        Puisque le portail intergouvernemental sécurisé de econsumer.gov n'autorise pas l'affichage direct dans un cadre tiers pour des raisons de sécurité, veuillez utiliser le portail officiel et vous référer aux modèles ci-dessous.
+      </p>
+
+      <div class="action-portal-box">
+        <div class="portal-cta">
+          <span class="portal-icon">⚖️</span>
+          <div>
+            <h3>Assistant de Plainte econsumer.gov</h3>
+            <p>Outil officiel géré par le réseau international de contrôle de la protection des consommateurs (ICPEN).</p>
+          </div>
+          <a href="https://www.econsumer.gov/assistant?lang=fr" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-portal-launch">Ouvrir le portail officiel (Français)</a>
+          <a href="https://www.econsumer.gov/assistant?lang=en-US" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-portal-launch">Launch Official Portal (English)</a>
+        </div>
+
+        <div class="instructions-templates">
+          <h3>📋 Sélectionnez votre région pour un texte juridique sur mesure (béton)</h3>
+          <p class="template-guide-text">Les entités juridiques de Google et les lois violées varient selon votre pays. Choisissez votre juridiction pour obtenir le dossier adéquat :</p>
+          
+          <div class="jurisdiction-selectors">
+            <button class="btn btn-secondary active-jurisdiction" onclick="switchJurisdiction('qc')">Québec / Canada</button>
+            <button class="btn btn-secondary" onclick="switchJurisdiction('eu')">Union Européenne (France/Belgique...)</button>
+            <button class="btn btn-secondary" onclick="switchJurisdiction('us')">États-Unis (USA)</button>
+            <button class="btn btn-secondary" onclick="switchJurisdiction('uk')">Royaume-Uni (UK)</button>
+            <button class="btn btn-secondary" onclick="switchJurisdiction('au')">Australie (APAC)</button>
+          </div>
+
+          <!-- Template Card -->
+          <div class="template-card">
+            <div class="template-header">
+              <h4 id="entity-title">🏢 Entreprise visée (Google Canada/LLC)</h4>
+              <button class="btn-copy" onclick="copyText('company-details')">Copier</button>
+            </div>
+            <pre id="company-details">En attente...</pre>
+          </div>
+
+          <div class="template-card">
+            <div class="template-header">
+              <h4 id="complaint-title">📝 Description juridique de la plainte</h4>
+              <button class="btn-copy" onclick="copyText('problem-text')">Copier</button>
+            </div>
+            <pre id="problem-text">En attente...</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script d'interactivité et de copie rapide -->
+    <script>
+      const legalData = {
+        qc: {
+          entity: "Nom de l'entreprise : Google LLC / Google Canada Corporation\nAdresse : 1600 Amphitheatre Parkway (ou 111 Richmond Street West)\nVille : Mountain View (ou Toronto)\nÉtat / Province : Californie (ou Ontario)\nPays : États-Unis / Canada",
+          title: "Description juridique de la plainte (Français - Canada/Québec)",
+          text: "Plainte formelle concernant les pratiques commerciales déloyales et abusives de Google LLC et Google Canada Corporation. Modification unilatérale et rétroactive des conditions d'utilisation des services de stockage et de communication de base (Gmail, Google Drive, Google Photos). L'accès continu à ces services essentiels a été unilatéralement suspendu ou conditionné à l'acceptation forcée de nouvelles dispositions contractuelles imposant l'entraînement de l'IA Gemini sur mes fichiers personnels et données privées. Cette pratique viole directement l'article 11.3 de la Loi sur la protection du consommateur (LPC) du Québec, qui interdit les clauses permettant au commerçant de modifier unilatéralement un élément essentiel du contrat sans avis écrit préalable de 30 jours contenant la clause de résiliation sans frais. De plus, les clauses de renonciation aux recours collectifs imposées dans ces conditions d'adhésion violent l'article 19 de la LPC et constituent des clauses abusives et réputées non écrites selon l'article 1437 du Code civil du Québec (C.c.Q.)."
+        },
+        eu: {
+          entity: "Nom de l'entreprise : Google Ireland Limited\nAdresse : Gordon House, Barrow Street\nVille : Dublin 4\nÉtat / Province : Leinster\nPays : Irlande (Ireland)",
+          title: "Description juridique de la plainte (Français - Union Européenne)",
+          text: "Plainte officielle pour pratiques commerciales trompeuses et violations caractérisées du RGPD à l'encontre de Google Ireland Limited. Modification unilatérale et rétroactive des conditions générales d'utilisation pour forcer l'usage et l'entraînement de l'IA Gemini. Google subordonne l'accès aux services de base (Gmail, Google Drive, Google Photos) au consentement forcé d'exploitation des fichiers personnels. Cette pratique constitue une violation flagrante de l'article 7(4) du RGPD (principe de conditionnalité/consentement libre) et de l'article 6(1) (absence de base légale licite pour le traitement d'entraînement de l'IA). De plus, ce procédé enfreint la Directive 93/13/CEE sur les clauses contractuelles abusives, notamment l'annexe 1, paragraphes 1(j) et 1(k), qui répute abusive toute clause autorisant le professionnel à modifier unilatéralement les caractéristiques du service sans motif valable spécifié au contrat d'origine."
+        },
+        us: {
+          entity: "Nom de l'entreprise : Google LLC\nAdresse : 1600 Amphitheatre Parkway\nVille : Mountain View\nÉtat : Californie (CA)\nCode postal : 94043\nPays : États-Unis (United States)",
+          title: "Legal Complaint Description (English - USA)",
+          text: "Formal complaint against Google LLC for unfair and deceptive trade practices in violation of Section 5 of the Federal Trade Commission Act (15 U.S.C. § 45). Google has engaged in deceptive practices by unilaterally and retroactively modifying its Terms of Service, conditioning continued access to pre-existing personal accounts (Gmail, Google Drive, Google Photos) on the mandatory acceptance of new clauses allowing Google to harvest private consumer documents and images to train its commercial AI models (Gemini). This retroactive policy shift without explicit, affirmative opt-in consent violates FTC consumer protection standards (analogous to FTC v. Gateway Learning Corp.). Additionally, this practice violates the California Unfair Competition Law (UCL, Cal. Bus. & Prof. Code § 17200) and the CCPA/CPRA (Cal. Civ. Code § 1798.100 et seq.) by implementing tied consent, lacking an explicit opt-out mechanism for automated decision-making and AI profiling, and retaliating through service access denial."
+        },
+        uk: {
+          entity: "Nom de l'entreprise : Google Ireland Limited\nAdresse : Gordon House, Barrow Street\nVille : Dublin 4\nÉtat / Province : Leinster\nPays : Irlande (Ireland)",
+          title: "Legal Complaint Description (English - United Kingdom)",
+          text: "Formal consumer complaint against Google Ireland Limited regarding breach of consumer rights. Google has unilaterally and retroactively modified contract terms, forcing users to accept integration of Gemini AI and data-scraping of personal files (Gmail, Drive, Photos) to keep accessing their email and storage accounts. This practice constitutes an unfair contract term under Schedule 2 of the UK Consumer Rights Act 2015, which prohibits businesses from unilaterally altering terms of a contract without a valid reason or prior consultation. It also represents a violation of the UK GDPR (Chapter II, Article 7(4)) regarding tied consent, as accessing essential standard communication services cannot be legally conditioned on consenting to commercial AI model training."
+        },
+        au: {
+          entity: "Nom de l'entreprise : Google LLC\nAdresse : 1600 Amphitheatre Parkway\nVille : Mountain View\nÉtat : Californie (CA)\nCode postal : 94043\nPays : États-Unis (United States)",
+          title: "Legal Complaint Description (English - Australia/APAC)",
+          text: "Formal complaint against Google LLC under the Australian Consumer Law (ACL), Schedule 2 of the Competition and Consumer Act 2010 (Cth). Google has unilaterally altered its terms of service, forcing users to agree to have their personal files, emails, and images processed to train its Gemini AI model as a condition to retain access to standard accounts (Gmail, Drive, Photos). This unnegotiated term in a standard form consumer contract is void under Section 23 of the ACL (Unfair Contract Terms) because it causes a significant imbalance in the parties' rights, is not reasonably necessary to protect Google's legitimate interests, and causes financial and privacy detriment to the consumer. Additionally, Google's conduct constitutes misleading or deceptive conduct under Section 18 of the ACL by misrepresenting the continuity of basic services."
+        }
+      };
+
+      function switchJurisdiction(key) {
+        // Update active class on buttons
+        const buttons = document.querySelectorAll('.jurisdiction-selectors button');
+        buttons.forEach(btn => btn.classList.remove('active-jurisdiction'));
+        
+        // Find clicked button
+        const clickedBtn = Array.from(buttons).find(btn => btn.getAttribute('onclick').includes(key));
+        if (clickedBtn) clickedBtn.classList.add('active-jurisdiction');
+
+        // Populate content
+        document.getElementById('company-details').textContent = legalData[key].entity;
+        document.getElementById('problem-text').textContent = legalData[key].text;
+        document.getElementById('complaint-title').textContent = legalData[key].title;
+      }
+
+      function copyText(id) {
+        const text = document.getElementById(id).textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          alert('Copié avec succès ! Vous pouvez maintenant coller cette information dans le formulaire de econsumer.gov.');
+        }).catch(err => {
+          console.error('Erreur de copie: ', err);
+        });
+      }
+
+      // Default selection on load
+      window.onload = () => {
+        switchJurisdiction('qc');
+      };
+    </script>
+
+    <!-- Anti-Censure Hosting Info -->
+    <section id="decentralisation" class="section card glass">
+      <h2 class="section-title">Architecture "Anti-Censure" & Souveraineté</h2>
+      <p class="section-intro">
+        Pour contrer toute censure de Google (retraits DNS, blocage d'hébergeurs), CCDN est conçue comme une plateforme décentralisée sans serveur principal.
+      </p>
+      <div class="decentralized-steps">
+        <div class="step-box">
+          <span class="step-num">1</span>
+          <h4>Hébergement IPFS</h4>
+          <p>Le frontend complet est stocké sur l'InterPlanetary File System (IPFS). Vous pouvez cloner et republier cette page sur n'importe quel nœud.</p>
+        </div>
+        <div class="step-box">
+          <span class="step-num">2</span>
+          <h4>Résolution ENS</h4>
+          <p>Le nom de domaine utilise <code>ccdn.eth</code> sur la blockchain Ethereum. Google ne peut ni confisquer ni bloquer la résolution DNS.</p>
+        </div>
+        <div class="step-box">
+          <span class="step-num">3</span>
+          <h4>Soumission sans serveur</h4>
+          <p>Les preuves hachées sont envoyées directement dans une base décentralisée peer-to-peer (OrbitDB) ou stockées localement par l'utilisateur pour envoi manuel.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Coalition Citoyenne de Défense Numérique (CCDN). Code source ouvert sous licence MIT. Hébergé sur IPFS.</p>
+      <p>Aucun cookie de pistage, aucun serveur centralisé. Souveraineté contractuelle absolue.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
